@@ -1,14 +1,14 @@
 # webregCalendartoICS
-##convert webreg Calendar to ics file.
+## convert webreg Calendar to ics file.
 
-#before run:
+# before run:
 install dependencies:
 `pip install icalendar`
-##please change file path in line 248 and line 250
+## please change file path in line 248 and line 250
 
-use by copy the calendar to clip board and run (Notice the course list is enclosed in "" mark where as the added argument for semester[winter, speing, etc.] is not)
+**use by copy the calendar to clip board and run (Notice the course list is enclosed in "" mark where as the added argument for semester[winter, speing, etc.] is not)**
 
-#sample:
+# sample:
 
 ```
 python  generate_calendar_beta1.py "COGS 108  	Data Science in Practice	A00	LE	Ellis, Shannon Elizabeth	L	4.00	MWF	9:00a-9:50a	CTL	0125	Enrolled	
