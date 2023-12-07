@@ -1,12 +1,16 @@
 # webregCalendartoICS
-convert webreg Calendar to ics file.
+##convert webreg Calendar to ics file.
 
-before run:
+#before run:
 install dependencies:
-pip install icalendar
-please change file path in line 248 and line 250
+`pip install icalendar`
+##please change file path in line 248 and line 250
+
 use by copy the calendar to clip board and run (Notice the course list is enclosed in "" mark where as the added argument for semester[winter, speing, etc.] is not)
-sample:
+
+#sample:
+
+```
 python  generate_calendar_beta1.py "COGS 108  	Data Science in Practice	A00	LE	Ellis, Shannon Elizabeth	L	4.00	MWF	9:00a-9:50a	CTL	0125	Enrolled	
  		A05	LA		 	 	F	5:00p-5:50p	DIB	121	 	 
  	Final Exam	 	FI		 	 	W 03/20/2024	8:00a-10:59a	TBA	TBA	 	 
@@ -26,12 +30,13 @@ COGS 101B 	Learning, Memory and Attention	A00	LE	Allen, Michael Gordon	L	4.00	MW
 JAPN  10B 	First Year Japanese II	F00	LE	Iwamoto, Naoki	L	5.00	TuTh	11:00a-12:20p	CENTR	218	Planned	
  		F02	TU		 	 	MWF	11:00a-11:50a	HSS	1138	 	 
  	Final Exam	 	FI		 	 	Th 03/21/2024	11:30a-2:29p	TBA	TBA	 	 " winter
+```
 
 
 
+##currently the semester are set as following:
 
-currently the semester are set as following:
-
+```
 semester_dates = {
     'ss1': {'start': '07/03/23', 'end': '08/05/23'},
     'ss2': {'start': '08/07/23', 'end': '09/09/23'},
@@ -39,3 +44,4 @@ semester_dates = {
     'winter': {'start': '01/08/24', 'end': '03/23/24'},
     'spring': {'start': '03/27/24', 'end': '06/16/24'}
 }
+```
