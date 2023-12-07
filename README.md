@@ -1,5 +1,5 @@
 # webregCalendartoICS
-## convert webreg Calendar to ics file.
+## convert UCSD webreg Calendar to ics file.
 
 # before run:
 install dependencies:
